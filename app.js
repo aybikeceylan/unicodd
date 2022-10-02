@@ -20,7 +20,7 @@ document.addEventListener(`scroll`, (e) => {
           console.log(fıshAll)
 
 
-          for (let i = 0; i < 5;) {
+          for (let i = 0; i < 5; i++) {
                setTimeout(() => {
                     console.log(i)
                     fıshAll.children[i].classList.remove(`fıshtype`)
@@ -28,7 +28,7 @@ document.addEventListener(`scroll`, (e) => {
                     fıshAll.children[i].classList.add(`fısh1`)
                     console.log(new Date().toLocaleTimeString())
                }, i * 1000)
-               i++
+
 
           }
 
